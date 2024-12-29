@@ -2,8 +2,8 @@
 
 using Helpers;
 
-var input = await File.ReadAllLinesAsync("Inputs/day1");
+var input = await File.ReadAllLinesAsync("Inputs/day2");
 
-var solution = Day1.PuzzleB(input);
+var solution = Day2.PuzzleB(input);
 
 Console.WriteLine($"Solution: {solution}");
